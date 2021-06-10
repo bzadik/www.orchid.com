@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="zh-Hans">
+  <file source-language="en" datatype="plaintext" original="ng2.template" target-language="pt-BR">
     <body>
       <trans-unit id="WhitepaperLink" datatype="html">
         <source>
 					/assets/whitepaper/whitepaper.pdf
 				</source>
-        <target state="translated">
-					/assets/whitepaper/chinese.pdf
+        <target state="needs-translation">
+					/assets/whitepaper/whitepaper.pdf
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/about-network/about-network.component.html</context>
@@ -22,8 +22,8 @@
         <source>
 					How Orchid delivers digital privacy
 				</source>
-        <target state="translated">
-					Orchid 如何实现数字隐私
+        <target state="needs-translation">
+					How Orchid delivers digital privacy
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/how-it-works/how-it-works.component.html</context>
@@ -34,9 +34,8 @@
         <source>
 					The Orchid network enables a decentralized virtual private network (VPN), allowing users to buy bandwidth from a global pool of service providers.
 				</source>
-        <target state="translated">
-					Orchid 网络可实现去中心化虚拟专用网 (VPN)，允许用户从全球性的服务提供商池购
-					买带宽。
+        <target state="needs-translation">
+					The Orchid network enables a decentralized virtual private network (VPN), allowing users to buy bandwidth from a global pool of service providers.
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/how-it-works/how-it-works.component.html</context>
@@ -46,12 +45,8 @@
       <trans-unit id="HowHero__Subtitle2" datatype="html">
         <source>To do this, Orchid uses an ERC-20 staking token called OXT, a new VPN protocol for token-incentivized bandwidth proxying, and smart-contracts with algorithmic advertising and payment functions. Orchid's users connect to bandwidth sellers using
             a provider directory, and they pay using probabilistic nanopayments so Ethereum transaction fees on packets are acceptably low.</source>
-        <target state="translated">
-					为此，Orchid 使用名为 OXT 的 ERC-20 实用代币、一种用于代币激励型带宽代理的新
-					VPN 协议，以及具有算法广告和支付功能的智能合约。Orchid 的用户使用提供商目录
-					与带宽销售商连接，并且，他们使用概率极微支付进行付款，因此数据包的以太坊交
-					易费处于可接受的低水平。
-				</target>
+        <target state="needs-translation">To do this, Orchid uses an ERC-20 staking token called OXT, a new VPN protocol for token-incentivized bandwidth proxying, and smart-contracts with algorithmic advertising and payment functions. Orchid's users connect to bandwidth sellers using
+            a provider directory, and they pay using probabilistic nanopayments so Ethereum transaction fees on packets are acceptably low.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/how-it-works/how-it-works.component.html</context>
           <context context-type="linenumber">6</context>
@@ -61,8 +56,8 @@
         <source>
 					Core components
 				</source>
-        <target state="translated">
-					Orchid 网络的核心组件
+        <target state="needs-translation">
+					Core components
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/how-it-works/how-it-works.component.html</context>
@@ -83,8 +78,8 @@
         <source>
 					The Orchid app
 				</source>
-        <target state="translated">
-					Orchid 应用
+        <target state="needs-translation">
+					The Orchid app
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/how-it-works/how-it-works.component.html</context>
@@ -95,8 +90,8 @@
         <source>
 					OXT cryptocurrency
 				</source>
-        <target state="translated">
-					OXT 加密货币
+        <target state="needs-translation">
+					OXT cryptocurrency
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/how-it-works/how-it-works.component.html</context>
@@ -119,8 +114,8 @@
         <source>
 					Orchid Protocol
 				</source>
-        <target state="translated">
-					Orchid 协议
+        <target state="needs-translation">
+					Orchid Protocol
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/how-it-works/how-it-works.component.html</context>
@@ -131,8 +126,8 @@
         <source>
 					Nanopayments
 				</source>
-        <target state="translated">
-					极微支付
+        <target state="needs-translation">
+					Nanopayments
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/how-it-works/how-it-works.component.html</context>
@@ -143,8 +138,8 @@
         <source>
 					Nodes
 				</source>
-        <target state="translated">
-					节点
+        <target state="needs-translation">
+					Nodes
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/how-it-works/how-it-works.component.html</context>
@@ -155,8 +150,8 @@
         <source>
 					Staking
 				</source>
-        <target state="translated">
-					质押
+        <target state="needs-translation">
+					Staking
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/how-it-works/how-it-works.component.html</context>
@@ -167,8 +162,8 @@
         <source>
 					The Orchid app
 				</source>
-        <target state="translated">
-					Orchid 应用
+        <target state="needs-translation">
+					The Orchid app
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/how-it-works/how-it-works.component.html</context>
@@ -177,11 +172,7 @@
       </trans-unit>
       <trans-unit id="HowApp__Description" datatype="html">
         <source>Users of Orchid run a client similar to a typical VPN client for protocols such as OpenVPN, but which speaks the Orchid protocol. The Orchid network client goes past the basic functionality offered by most VPN clients, with features such as the ability to run traffic through an integrated personal firewall. The Orchid client is accessible via iOS, Android, macOS, Linux, and (soon) Windows.</source>
-        <target state="translated">
-					Orchid 的用户为诸如 OpenVPN 等协议运行类似于典型 VPN 客户端的客户端，但该客户端使用 Orchid
-					协议。Orchid 网络客户端的功能超越了大多数 VPN 客户端提供的基本功能，如能够穿过集成式个人防火
-					墙运行流量。Orchid 客户端可通过 iOS、Android、macOS、Linux 和（即将支持）Windows 访问。
-				</target>
+        <target state="needs-translation">Users of Orchid run a client similar to a typical VPN client for protocols such as OpenVPN, but which speaks the Orchid protocol. The Orchid network client goes past the basic functionality offered by most VPN clients, with features such as the ability to run traffic through an integrated personal firewall. The Orchid client is accessible via iOS, Android, macOS, Linux, and (soon) Windows.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/how-it-works/how-it-works.component.html</context>
           <context context-type="linenumber">48</context>
@@ -191,8 +182,8 @@
         <source>
 					The Orchid digital currency (OXT)
 				</source>
-        <target state="translated">
-					Orchid 加密货币 (OXT)
+        <target state="needs-translation">
+					The Orchid digital currency (OXT)
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/how-it-works/how-it-works.component.html</context>
@@ -235,39 +226,40 @@
                         certain risks.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 				</source>
-        <target state="translated">
+        <target state="needs-translation">
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					OXT 的首要及基本目的是跟踪记录谁使用了计算服务、谁提供了计算服务，以及普通用户是否公平地给予了
-					普通提供商报酬。
+					OXT’s primary purpose is to provide a staking-advertising mechanism that aligns operator incentives to the benefit of the Orchid network and mitigates certain risks.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					OXT 代币可以在 Orchid 网络中带来多方面的价值：
+					The OXT digital currency provides value in the Orchid network in a number of ways:
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 					<x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
 					<x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
-					带宽提供商 — 任何人都可以经营 Orchid 节点，但必须先质押 OXT，质押的 OXT 越多，在网络中获得
-					奖励的机会就越大。
+					A Bandwidth Provider - Anyone can operate an Orchid Node, but must first stake OXT, with the more OXT that is staked, the greater the chances of reward in the Network.
 					<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
 					<x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
-					带宽用户 — 用户第一次可以即时付费以获得私有、安全的互联网连接。 要启动客户端，用户需要安装
-					Orchid VPN、将 OXT 添加到钱包，然后可以通过用户选择的路径访问互联网，确保在世界任意地方安
-					全连接。 用户只需为他们使用的带宽付费。
+					A Bandwidth User - For the first time, users can pay-on-the-fly for a private, secure internet connection using nanopayments. Users add OXT or any of the supported cryptocurrencies to their Orchid account which is then used to pay providers for service while the VPN is connected.
 					<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
 					<x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					带宽市场是点对点市场，以完全去中心化的方式运行，不依赖任何中心实体。 使用原生代币的主要原因是：
+					<x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
+					Learn more about OXT.
+					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+					The bandwidth marketplace is peer-to-peer and run in a completely decentralized manner without reliance on any central party. The primary reasons for this new digital currency OXT are:
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 					<x id="START_ORDERED_LIST" ctype="x-ol" equiv-text="&lt;ol&gt;"/>
 					<x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
-					拥有专门与 Orchid 网络上的带宽使用相关联的代币
+					To have a digital currency that is specifically tied to consumption of bandwidth on the Orchid network
 					<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
 					<x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
-					使运营商的激励与 Orchid 网络的好处相一致。
+					To align operator incentives towards the benefit of the Orchid Network.
 					<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
 					<x id="CLOSE_ORDERED_LIST" ctype="x-ol" equiv-text="&lt;/ol&gt;"/>
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					因此，除了促进网络上的带宽交易外，Orchid 代币还用于在 Orchid 网络中证明质押（这旨在证明对带宽提
-					供者的承诺），以及减轻某些风险。
+					Accordingly, in addition to facilitating bandwidth transactions on the Network, the Orchid digital currency is used to prove a stake within the Orchid network that demonstrates a commitment by bandwidth providers, as well as to mitigate
+                        certain risks.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 				</target>
         <context-group purpose="location">
@@ -351,57 +343,67 @@
 					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 				</source>
-        <target state="translated">
+        <target state="needs-translation">
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
 					<x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>
 					Purchased accounts:
 					<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-					Orchid supports the ability for users to buy a pre funded Orchid account from within the official iOS app using native FIAT currency. “Orchid credits” are special accounts where the OXT is not able
-					to be withdrawn by the user, and must be spent only with our preferred providers. Like all Orchid accounts, the account can be shared with an unlimited number of people or devices.
+					Orchid supports the ability for users to buy a pre funded Orchid account from within the official iOS app using native FIAT currency. “Orchid credits” are special accounts where the cryptocurrency, xDai, must be spent only with our preferred providers. Like all Orchid accounts, the account can be shared with an unlimited number of people or devices.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
 					What is being purchased when a user buys Orchid credits?
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 					<x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
 					<x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
-					Balance Based on the chosen pricing tier, the user will receive an Orchid account funded with a pre determined amount of OXT which can be used to purchase bandwidth on the Orchid network.
+					<x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>
+					Balance
+					<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+					Based on the chosen pricing tier, the user will receive an Orchid account funded with an amount of xDai, subject to market fluctuations, which can be used to purchase bandwidth on the Orchid network.
 					<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
 					<x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
-					Deposit A portion of the purchase is invested as a deposit to the generated account. This is required for participation in the Orchid network as both a deterrent of client malfeasance as well as a determinant for ticket sizing
-					in our nanopayment system.
+					<x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>
+					Deposit
+					<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+					A portion of the purchase is invested as a deposit to the generated account. This is required for participation in the Orchid network as both a deterrent of client malfeasance as well as a determinant for ticket sizing in our nanopayment system.
 					<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
 					<x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
-					ETH gas Transactions made on the Ethereum blockchain require small payments of ETH and a portion of the credits purchase goes to covering these costs for creating the Orchid account.
+					<x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>
+					Gas
+					<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+					Transactions made on the blockchain require small payments and a portion of the credits purchase goes to covering these costs for creating the Orchid account.
 					<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
 					<x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
-					Fees Transaction fees for accepting FIAT.
+					<x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>
+					Fees
+					<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
+					Transaction fees for accepting FIAT.
 					<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
 					<x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					The purpose of Orchid credits is to open up use of the Orchid network to a wider range of users, such as users who aren’t familiar with cryptocurrency or don’t want to deal with the intricacies themselves. No personal information is accessed or stored
-					by Orchid during the purchase process or in the use of the Orchid app, and Orchid credits are distributed from a prefabricated pool to ensure anonymity on the network.
+					The purpose of Orchid credits is to open up use of the Orchid network to a wider range of users, such as users who aren’t familiar with cryptocurrency or don’t want to deal with the intricacies themselves. No personal information is accessed or stored by Orchid during the purchase process or in the use of the Orchid app.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
 					<x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>
-					Created accounts:
+					Crypto-native accounts:
 					<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
-					Users looking to supply their own OXT holdings to fund their participation in the Orchid network can create a custom account using Orchid’s web3 based dapp at
+					Users looking to supply their own OXT or other supported cryptocurrencies to fund their participation in the Orchid network can create a custom account using Orchid’s web3 based dapp at
 					<x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
 					account.orchid.com
 					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
-					.
-					The Orchid Account dapp can only be accessed using a web3 browser such as
+					. The Orchid Account dapp can only be accessed using a web3 browser such as
 					<x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>
 					Metamask
 					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
-					, and allows linking of crypto wallets in order to build custom accounts with granular controls. Here, users can
-					fund an account with their own specified values as well as control the size of the associated deposit, determining ticket size in the nanopayment system which can influence efficiency experienced within the Orchid app. These accounts
-					can be easily linked to the Orchid app as an alternative to purchased accounts as well as shared with an unlimited number of people and/or devices.
+					, and allows linking of crypto wallets in order to build custom accounts with granular controls. Here, users can fund an account with their own specified values as well as control the size of the associated deposit, influencing
+					<x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/>
+					efficiency
+					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+					experienced within the Orchid app. These accounts can be easily linked to the Orchid app as an alternative to purchased accounts as well as shared with an unlimited number of people and/or devices.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					<x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/>
+					<x id="START_LINK_3" ctype="x-a" equiv-text="&lt;a&gt;"/>
 					Learn more about creating an Orchid account.
 					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
@@ -415,8 +417,8 @@
         <source>
 					The Orchid Protocol
 				</source>
-        <target state="translated">
-					Orchid 协议
+        <target state="needs-translation">
+					The Orchid Protocol
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/how-it-works/how-it-works.component.html</context>
@@ -435,10 +437,16 @@
 					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
 					. The Orchid protocol is designed for high-performance networking and runs on top of WebRTC, a common web standard, widely used to transmit video and audio from inside browsers. Our protocol allows users to request access to remote network resources and pay for these resources using cryptocurrencies via the Orchid nanopayments system.
 				</source>
-        <target state="translated">
-					Orchid 软件使用一种自定义 VPN 协议，在范围上类似于 OpenVPN 或 WireGuard。 Orchid 协议为高性
-					能网络连接而设计，并且基于 WebRTC 运行，这是一种通用 Web 标准，广泛用于从浏览器中传输视频和
-					音频。 我们的协议有意支持用户请求访问远程网络资源，并通过极微支付系统使用 OXT 为这些资源付费。
+        <target state="needs-translation">
+					The Orchid software is designed to use a custom VPN protocol, similar in scope to
+					<x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
+					OpenVPN
+					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+					or
+					<x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>
+					WireGuard
+					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+					. The Orchid protocol is designed for high-performance networking and runs on top of WebRTC, a common web standard, widely used to transmit video and audio from inside browsers. Our protocol allows users to request access to remote network resources and pay for these resources using cryptocurrencies via the Orchid nanopayments system.
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/how-it-works/how-it-works.component.html</context>
@@ -449,8 +457,8 @@
         <source>
 					Nanopayments
 				</source>
-        <target state="translated">
-					极微支付
+        <target state="needs-translation">
+					Nanopayments
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/how-it-works/how-it-works.component.html</context>
@@ -471,16 +479,18 @@
 					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 				</source>
-        <target state="translated">
+        <target state="needs-translation">
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					Orchid 使用新的概率极微支付系统来扩展付款吞吐量。
+					Orchid uses a new probabilistic nanopayment system to scale payment throughput.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					这种极微支付系统是 Orchid 点对点带宽市场的基础，在该市场中，客户端向节点运营商支付 OXT“彩币”
-					以购买代理带宽。 该系统旨在通过在多笔交易乃至多方之间分摊小额支付的交易费，从而降低交易费用。
+					This nanopayment system is the foundation of the Orchid peer to peer bandwidth marketplace where clients pay Node operators cryptocurrency-backed “tickets” for proxy bandwidth. The system is designed to lower the transaction fees on small payments by amortizing transaction fees across many transactions and even across multiple parties.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					有关更多信息，请参阅我们近期的文章：极微支付简介
+					For more information, see our recent article:
+					<x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
+					Introducing Nanopayments
+					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 				</target>
         <context-group purpose="location">
@@ -492,8 +502,8 @@
         <source>
 					Nodes
 				</source>
-        <target state="translated">
-					节点
+        <target state="needs-translation">
+					Nodes
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/how-it-works/how-it-works.component.html</context>
@@ -508,15 +518,12 @@
 					Orchid nodes maintain registration information in a stake registry and provider directory on Ethereum. The stake registry is optimized for enabling the Orchid app to automatically discover random servers in a decentralized environment, while the provider directory allows Orchid nodes to register metadata such as geolocation or additional services offered.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 				</source>
-        <target state="translated">
+        <target state="needs-translation">
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					Orchid 上的服务提供商为诸如 OpenVPN 等协议运行类似于典型 VPN 守护程序的软件，但该软件使用
-					Orchid 协议。
+					Service providers on Orchid run software similar to a typical VPN daemon for protocols such as OpenVPN, but which speaks the Orchid protocol.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					Orchid 节点在以太坊上的质押注册表和提供商目录中维护注册信息。 质押注册表经过优化，使 Orchid
-					应用能够在去中心化环境中自动发现随机服务器，而提供商目录则允许 Orchid 节点注册元数据，如地
-					理位置或提供的其他服务。
+					Orchid nodes maintain registration information in a stake registry and provider directory on Ethereum. The stake registry is optimized for enabling the Orchid app to automatically discover random servers in a decentralized environment, while the provider directory allows Orchid nodes to register metadata such as geolocation or additional services offered.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 				</target>
         <context-group purpose="location">
@@ -528,8 +535,8 @@
         <source>
 					Staking
 				</source>
-        <target state="translated">
-					质押
+        <target state="needs-translation">
+					Staking
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/how-it-works/how-it-works.component.html</context>
@@ -561,33 +568,29 @@
 					Whatever the amount of value that is exchanged in the Orchid ecosystem, a given seller’s relative stake amount, as a percentage of the total stake, provides them that same percentage of user traffic and dealflow. Assuming typical and honest selling behavior (no users drop them for bad service) this dealflow will translate into a similar portion of the total revenue. The staking decisions of sellers is left to their own choices.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 				</source>
-        <target state="translated">
+        <target state="needs-translation">
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					提供商质押一定数量的 OXT 代币以创建质押保证金。
+					A provider stakes some number of OXT to create a stake deposit.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 					<x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;"/>
 					<x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
-					任何人都可以使用智能合约在节点上质押 OXT。
+					Anyone can stake OXT on nodes using the smart contract.
 					<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
 					<x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
-					客户端根据节点的相对 OXT 保证金规模按比例选择新节点。
+					Clients select new nodes in proportion to their relative OXT deposit size.
 					<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
 					<x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
-					因此，更大的质押保证金将会成比例地带来更多用户、带宽和收入。
+					Larger stake deposits thus lead to proportionally more users, bandwidth, and revenue.
 					<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
 					<x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
-					如果节点已经达到最大带宽容量，则额外的质押实际上将会浪费。
+					If the node is already at max bandwidth capacity additional stake is effectively wasted.
 					<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
 					<x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;"/>
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					当代币被锁入质押保证金后，它们可以立即用于带宽供应。 如果提供方希望从质押合约中提取代币，则需
-					要启动“解锁”办理期，该过程包括三个月的冷却期，在此期间，资金不能用作质押保证金，提供方也不能将
-					其转移到其他地方。
+					Once tokens have been locked into a stake deposit they can be used immediately for bandwidth provisioning. If the provider wants to withdraw tokens from the staking contract, they have to start an “unlocking” process period, which involves a three month cooldown where their funds cannot be used as a stake deposit or transferred elsewhere by the provider.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					无论在 Orchid 生态系统中交易的价值是多少，给定卖方的相对质押金额（占总质押的百分比）都会为他们
-					提供该相同百分比的用户流量和交易流。 假设销售行为典型且诚实（没有用户因劣质服务而放弃它们），
-					此交易流将转化为占比类似的一部分总收入。 卖方的质押决策由他们自己选择。
+					Whatever the amount of value that is exchanged in the Orchid ecosystem, a given seller’s relative stake amount, as a percentage of the total stake, provides them that same percentage of user traffic and dealflow. Assuming typical and honest selling behavior (no users drop them for bad service) this dealflow will translate into a similar portion of the total revenue. The staking decisions of sellers is left to their own choices.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 				</target>
         <context-group purpose="location">
@@ -599,8 +602,8 @@
         <source>
 					Read our Whitepaper
 				</source>
-        <target state="translated">
-					白皮书
+        <target state="needs-translation">
+					Read our Whitepaper
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/how-it-works/how-it-works.component.html</context>
@@ -611,8 +614,8 @@
         <source>
 					Events
 				</source>
-        <target state="translated">
-					活动
+        <target state="needs-translation">
+					Events
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/events/events.component.html</context>
@@ -623,8 +626,8 @@
         <source>
 					Find us IRL
 				</source>
-        <target state="translated">
-					敬请亲临现场
+        <target state="needs-translation">
+					Find us IRL
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/events/events.component.html</context>
@@ -635,8 +638,8 @@
         <source>
 					Get the Orchid app
 				</source>
-        <target state="translated">
-					试用预发行版 Orchid 应用
+        <target state="needs-translation">
+					Get the Orchid app
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/download/download.component.html</context>
@@ -711,8 +714,8 @@
         <source>
 					https://www.okex.com/promotion/XTkOoB
 				</source>
-        <target state="translated">
-					https://blog.zh.orchid.com/oxt-now-live-on-okex/
+        <target state="needs-translation">
+					https://www.okex.com/promotion/XTkOoB
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -752,17 +755,26 @@
 					and compile it yourself!)
 					<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
 				</source>
-        <target state="translated">
+        <target state="needs-translation">
 					<x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
 					<x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
 					<x id="TAG_IMG" ctype="image" equiv-text="&lt;img/&gt;"/>
 					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
 					<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
 					<x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
-					接受关于抢先体验的条款。
+					- OR -
 					<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
 					<x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
-					使用显示的链接安装 Orchid。
+					<x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>
+					Download the APK from GitHub
+					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+					<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
+					<x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
+					(Or
+					<x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/>
+					get the code
+					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+					and compile it yourself!)
 					<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
 				</target>
         <context-group purpose="location">
@@ -774,8 +786,8 @@
         <source>
 					/assets/img/shared/google-play-badge.svg
 				</source>
-        <target state="translated">
-					/assets/img/shared/google-play-badge-zh.png
+        <target state="needs-translation">
+					/assets/img/shared/google-play-badge.svg
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/download/download.component.html</context>
@@ -790,8 +802,8 @@
         <source>
 					Get it on Google Play
 				</source>
-        <target state="translated">
-					从 Google Play 上获取
+        <target state="needs-translation">
+					Get it on Google Play
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/download/download.component.html</context>
@@ -812,8 +824,19 @@
 					VPN
 					<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
 				</source>
-        <target state="translated">
-					尝试由 Crypto 提供支持的 VPN
+        <target state="needs-translation">
+					<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+					The
+					<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+					<x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>
+					Crypto
+					<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+					<x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>
+					Powered
+					<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+					<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+					VPN
+					<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -836,8 +859,8 @@
         <source>
 					Welcome to Orchid
 				</source>
-        <target state="translated">
-					了解运作方式
+        <target state="needs-translation">
+					Welcome to Orchid
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/video-section/video-section.component.html</context>
@@ -848,8 +871,8 @@
         <source>
 					Learn More
 				</source>
-        <target state="translated">
-					了解更多详情
+        <target state="needs-translation">
+					Learn More
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/video-section/video-section.component.html</context>
@@ -860,8 +883,8 @@
         <source>
 					FAQ
 				</source>
-        <target state="translated">
-					白皮书
+        <target state="needs-translation">
+					FAQ
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/join/join.component.html</context>
@@ -878,8 +901,10 @@
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					for the $35B* VPN market
 				</source>
-        <target state="translated">
-					The Orchid Digital Currency
+        <target state="needs-translation">
+					The staking asset
+					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+					for the $35B* VPN market
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/oxt/oxt.component.html</context>
@@ -914,9 +939,9 @@
           <context context-type="linenumber">18</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="OXTWhereToBuy" datatype="html" approved="yes">
+      <trans-unit id="OXTWhereToBuy" datatype="html">
         <source>Where to get OXT</source>
-        <target state="final">从哪里获取 OXT 币</target>
+        <target state="needs-translation">Where to get OXT</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/oxt/oxt.component.html</context>
           <context context-type="linenumber">39</context>
@@ -958,8 +983,8 @@
         <source>
         A maximum 1 billion OXT were eligible for creation, all of which has been created. As of December 9 2019, Orchid Labs, Inc. held 400,579,272 OXT in its treasury that has been subject to its treasury policy. Pursuant to Orchid Labs, Inc.'s treasury policy, it is anticipated that as to 400,579,272 OXT of the treasury OXT, starting as of December 9, 2019, no more than 10 million OXT per month will be available to be released from the treasury.
       </source>
-        <target state="translated">
-        A maximum 1 billion OXT were eligible for creation, all of which has been created. As of December 9 2019, Orchid Labs, Inc. held 400,579,272 OXT in its treasury that has been subject to its treasury policy.Pursuant to Orchid Labs, Inc.'s treasury policy, it is anticipated that as to 400,579,272 OXT of the treasury OXT, starting as of December 9, 2019, no more than 10 million OXT per month will be available to be released from the treasury.
+        <target state="needs-translation">
+        A maximum 1 billion OXT were eligible for creation, all of which has been created. As of December 9 2019, Orchid Labs, Inc. held 400,579,272 OXT in its treasury that has been subject to its treasury policy. Pursuant to Orchid Labs, Inc.'s treasury policy, it is anticipated that as to 400,579,272 OXT of the treasury OXT, starting as of December 9, 2019, no more than 10 million OXT per month will be available to be released from the treasury.
       </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/oxt/oxt.component.html</context>
@@ -1025,52 +1050,64 @@
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 
 				</source>
-        <target state="translated">
+        <target state="needs-translation">
 					<x id="START_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;h4&gt;"/>
 					Audit of Smart Contract for use with OXT Release Schedule
 					<x id="CLOSE_HEADING_LEVEL4" ctype="x-h4" equiv-text="&lt;/h4&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					On March 21, 2020,
+					Audit of Smart Contract On March 21, 2020,
 					<x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
 					Consensys Diligence
 					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
-					published a technical audit on Orchid’s
-					batch send smart contract, which
-					may be used for multiple disbursements of ether and ERC20 tokens in a single transaction. The audit report is
-					public and can be found here:
+					published a technical audit on Orchid’s batch send smart contract, which may be used for multiple disbursements of ether and ERC20 tokens in a single transaction. The audit report is public and can be found here:
+					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>
 					https://diligence.consensys.net/audits/2020/01/orchid-multisend/
 					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					For purposes of the audit, Orchid posted all the information needed to perform the audit in a technical
-					repository on GitHub that can be found here:
+					For purposes of the audit, Orchid posted all the information needed to perform the audit in a technical repository on GitHub that can be found here:
+					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="START_LINK_2" ctype="x-a" equiv-text="&lt;a&gt;"/>
 					https://github.com/OrchidTechnologies/orchid/tree/3187d0716f16eeb59552d2c103c02efd5a530a76/tst-ethereum/distributor
 					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
 					Anyone can re-perform the smart contracts audit using the same information provided to Consensys Diligence.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					The information posted to GitHub and provided to Consensys Diligence includes the OXT token contract, found
-					here:
+					The information posted to GitHub and provided to Consensys Diligence includes the OXT token contract, found here:
+					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="START_LINK_3" ctype="x-a" equiv-text="&lt;a&gt;"/>
 					https://github.com/OrchidTechnologies/orchid/blob/3187d0716f16eeb59552d2c103c02efd5a530a76/tok-ethereum/token.sol
 					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
 					It also includes the OXT release schedule, found here:
+					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="START_LINK_4" ctype="x-a" equiv-text="&lt;a&gt;"/>
 					https://github.com/OrchidTechnologies/orchid/blob/3187d0716f16eeb59552d2c103c02efd5a530a76/tst-ethereum/distributor/release_schedule.pdf
 					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					To make this information more accessible for smart contract technical reviews, and for network users and
-					bandwidth providers, below is a graphic representation showing some of the same information that can be found on
-					GitHub.
+					In December 2020 Consensys Diligence published a technical audit on a new version of Orchid's batch send smart contract, which may be used for multiple disbursements of ether and ERC20 tokens in a single transaction. The audit report is public and can be found here:
+					<x id="START_LINK_5" ctype="x-a" equiv-text="&lt;a&gt;"/>
+					https://consensys.net/diligence/audits/2020/12/orchid-multisend/
+					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
+					A link to the Additional Release Schedule that was also subject to Consensys Audit:
+					<x id="START_LINK_6" ctype="x-a" equiv-text="&lt;a&gt;"/>
+					https://consensys.net/diligence/audits/2020/12/orchid-multisend/Deferred-Comp-Release-Schedule.pdf
+					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/oxt/oxt.component.html</context>
@@ -1079,7 +1116,7 @@
       </trans-unit>
       <trans-unit id="OXTStakingHeadline" datatype="html">
         <source>Staking</source>
-        <target state="translated">质押</target>
+        <target state="needs-translation">Staking</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/oxt/oxt.component.html</context>
           <context context-type="linenumber">136</context>
@@ -1107,9 +1144,9 @@
 					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 				</source>
-        <target state="translated">
+        <target state="needs-translation">
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					Users need an Orchid account that holds funds to pay for VPN service. Orchid accounts can use OXT on Ethereum, or be homed on other EVM-compatible chains. The Orchid nanopayment system is chain-agnostic. While providers can receive payments from multiple blockchains,staking is always and only done with OXT on Ethereum.
+					Users need an Orchid account that holds funds to pay for VPN service. Orchid accounts can use OXT on Ethereum, or be homed on other EVM-compatible chains. The Orchid nanopayment system is chain-agnostic. While providers can receive payments from multiple blockchains, staking is always and only done with OXT on Ethereum.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
 					<x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
@@ -1207,8 +1244,14 @@
 					form to let us know, so that it can be added to
     our list.
 				</source>
-        <target state="translated">
-					If you see OXT being traded on an exchange that isn’t listed here, please use the contact form to let us know, so that it can be added to our list.
+        <target state="needs-translation">
+					When we learn of new listings, they will be publicly announced. If you see OXT being
+    traded on an exchange that isn’t listed here, please use the
+					<x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
+					contact
+					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+					form to let us know, so that it can be added to
+    our list.
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/where-oxt/where-oxt.component.html</context>
@@ -1267,8 +1310,8 @@
         <source>
 					Our approach
 				</source>
-        <target state="translated">
-					我们的方法
+        <target state="needs-translation">
+					Our approach
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -1278,10 +1321,8 @@
       <trans-unit id="HomeApproach__Subtitle" datatype="html">
         <source>We believe that by harnessing the power of blockchain, we
                 can offer users a better VPN experience.</source>
-        <target state="translated">
-					我们相信，通过消除集中化、奖励网络提供者并利用
-					区块链的力量，我们可以更好地保护用户的隐私。
-				</target>
+        <target state="needs-translation">We believe that by harnessing the power of blockchain, we
+                can offer users a better VPN experience.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">42</context>
@@ -1291,8 +1332,8 @@
         <source>
 					Pay-per-use
 				</source>
-        <target state="translated">
-					按使用量付费
+        <target state="needs-translation">
+					Pay-per-use
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -1304,9 +1345,10 @@
                         On Orchid, you only pay for service while actually using the VPN. Turn it off, and there are no
                         charges. And no monthly fees!
                     </source>
-        <target state="translated">
-					在 Orchid 上，您仅在使用 VPN 时才需要付费。如果将其关闭，则不会产生费用。而且，无每月固定费用！
-				</target>
+        <target state="needs-translation">
+                        On Orchid, you only pay for service while actually using the VPN. Turn it off, and there are no
+                        charges. And no monthly fees!
+                    </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">53</context>
@@ -1316,8 +1358,8 @@
         <source>
 					Provider network
 				</source>
-        <target state="translated">
-					轻松点击即可更改提供商
+        <target state="needs-translation">
+					Provider network
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -1329,9 +1371,10 @@
                         Change providers within the Orchid network with a click. If you don't like one, simply tap to
                         reconnect and get randomly reassigned.
                     </source>
-        <target state="translated">
-					Orchid 为您带来海量提供商。若不喜欢其中一个提供商，只需点击重新连接，即可重新随机分配。
-				</target>
+        <target state="needs-translation">
+                        Change providers within the Orchid network with a click. If you don't like one, simply tap to
+                        reconnect and get randomly reassigned.
+                    </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">67</context>
@@ -1341,8 +1384,8 @@
         <source>
 					Unlimited devices
 				</source>
-        <target state="translated">
-					设备数量不受限制，可随意分享
+        <target state="needs-translation">
+					Unlimited devices
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -1354,9 +1397,10 @@
                         You can share your account with an unlimited number of devices and people. Manage one account
                         for your friends, family and all their devices.
                     </source>
-        <target state="translated">
-					一旦创建帐户，您即可将其分享给不限数量的设备和好友。所有亲朋好友及其所有设备均可使用一个帐户进行管理。
-				</target>
+        <target state="needs-translation">
+                        You can share your account with an unlimited number of devices and people. Manage one account
+                        for your friends, family and all their devices.
+                    </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">81</context>
@@ -1366,8 +1410,8 @@
         <source>
 					As seen in
 				</source>
-        <target state="translated">
-					英雄所见
+        <target state="needs-translation">
+					As seen in
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -1391,10 +1435,10 @@
                         In a world where one assumes the Cambridge Analytica scandal is merely the tip of the iceberg
                         when it comes to data abuse, it’s easy to see the project’s appeal."
                     </source>
-        <target state="translated">
-					与投入的资金、愿景和创始人相比，
-					这才是大事。 敬请关注。”
-				</target>
+        <target state="needs-translation">
+                        In a world where one assumes the Cambridge Analytica scandal is merely the tip of the iceberg
+                        when it comes to data abuse, it’s easy to see the project’s appeal."
+                    </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">120</context>
@@ -1404,8 +1448,8 @@
         <source>
 					Read More
 				</source>
-        <target state="translated">
-					了解详情
+        <target state="needs-translation">
+					Read More
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
@@ -1429,12 +1473,10 @@
                         Orchid’s mission is to build open-source software that keeps the Internet open and accessible  —
                          a natural resource for everyone, everywhere.”
                     </source>
-        <target state="translated">
-					Orchid 的愿景是开发使 互联网 保
-					持开放和可访问的开源软件 — 让
-					互联网 成为任何地方、任何人都可
-					使用的自然资源。”
-				</target>
+        <target state="needs-translation">
+                        Orchid’s mission is to build open-source software that keeps the Internet open and accessible  —
+                         a natural resource for everyone, everywhere.”
+                    </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">135</context>
@@ -1445,12 +1487,10 @@
                         Orchid is developing an open-source decentralized and surveillance-free internet protocol
                         intending to provide anonymized internet access to the global community.”
                     </source>
-        <target state="translated">
-					Orchid 正在开发开源、去中心化
-					且免受监视的 互联网 协议，旨在
-					为全球社区提供匿名化的 互联网
-					访问。
-				</target>
+        <target state="needs-translation">
+                        Orchid is developing an open-source decentralized and surveillance-free internet protocol
+                        intending to provide anonymized internet access to the global community.”
+                    </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/home/home.component.html</context>
           <context context-type="linenumber">150</context>
@@ -1460,8 +1500,8 @@
         <source>
 					Let's stay connected
 				</source>
-        <target state="translated">
-					保持联系
+        <target state="needs-translation">
+					Let's stay connected
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/newsletter-signup/newsletter-signup.component.html</context>
@@ -1476,8 +1516,8 @@
         <source>
 					Get the newsletter for updates and privacy news
 				</source>
-        <target state="translated">
-					获取新闻通讯，及时了解动态和隐私新闻
+        <target state="needs-translation">
+					Get the newsletter for updates and privacy news
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/newsletter-signup/newsletter-signup.component.html</context>
@@ -1492,8 +1532,8 @@
         <source>
 					Email address
 				</source>
-        <target state="translated">
-					电子邮件地址
+        <target state="needs-translation">
+					Email address
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/newsletter-signup-core/newsletter-signup-core.component.html</context>
@@ -1511,9 +1551,8 @@
       <trans-unit id="Newsletter__Consent" datatype="html">
         <source>I consent to receiving further instructions at the email address I submitted
         above.</source>
-        <target state="translated">
-					我同意在我上面提交的电子邮件地址接收更多说明。
-				</target>
+        <target state="needs-translation">I consent to receiving further instructions at the email address I submitted
+        above.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/newsletter-signup-core/newsletter-signup-core.component.html</context>
           <context context-type="linenumber">8</context>
@@ -1535,8 +1574,13 @@
 					Register
 					<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
 				</source>
-        <target state="translated">
-					订阅
+        <target state="needs-translation">
+					<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
+					Subscribe
+					<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+					<x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/>
+					Register
+					<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/newsletter-signup-core/newsletter-signup-core.component.html</context>
@@ -1551,8 +1595,8 @@
         <source>
 					Get notified
 				</source>
-        <target state="translated">
-					接收通知
+        <target state="needs-translation">
+					Get notified
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/newsletter-signup-hero/newsletter-signup-hero.component.html</context>
@@ -1563,8 +1607,8 @@
         <source>
 					Home
 				</source>
-        <target state="translated">
-					主页
+        <target state="needs-translation">
+					Home
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/page-layout/page-layout.component.html</context>
@@ -1578,9 +1622,8 @@
       <trans-unit id="Navigation-Join" datatype="html">
         <source>Create
             Account</source>
-        <target state="translated">
-					立即加入
-				</target>
+        <target state="needs-translation">Create
+            Account</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/page-layout/page-layout.component.html</context>
           <context context-type="linenumber">25</context>
@@ -1590,8 +1633,8 @@
         <source>
 					How It Works
 				</source>
-        <target state="translated">
-					运作方式
+        <target state="needs-translation">
+					How It Works
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/page-layout/page-layout.component.html</context>
@@ -1614,8 +1657,8 @@
         <source>
 					About
 				</source>
-        <target state="translated">
-					关于
+        <target state="needs-translation">
+					About
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/page-layout/page-layout.component.html</context>
@@ -1626,8 +1669,8 @@
         <source>
 					Blog
 				</source>
-        <target state="translated">
-					博客
+        <target state="needs-translation">
+					Blog
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/page-layout/page-layout.component.html</context>
@@ -1642,8 +1685,8 @@
         <source>
 					https://blog.orchid.com/
 				</source>
-        <target state="translated">
-					https://blog.zh.orchid.com/
+        <target state="needs-translation">
+					https://blog.orchid.com/
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/page-layout/page-layout.component.html</context>
@@ -1658,8 +1701,8 @@
         <source>
 					Contact
 				</source>
-        <target state="translated">
-					联系
+        <target state="needs-translation">
+					Contact
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/page-layout/page-layout.component.html</context>
@@ -1722,8 +1765,8 @@
         <source>
 					日本
 				</source>
-        <target state="translated">
-					日本語
+        <target state="needs-translation">
+					日本
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/page-layout/page-layout.component.html</context>
@@ -1734,8 +1777,8 @@
         <source>
 					中文
 				</source>
-        <target state="translated">
-					汉语
+        <target state="needs-translation">
+					中文
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/page-layout/page-layout.component.html</context>
@@ -1758,8 +1801,8 @@
         <source>
 					How it Works
 				</source>
-        <target state="translated">
-					运作方式
+        <target state="needs-translation">
+					How it Works
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/page-layout/page-layout.component.html</context>
@@ -1770,8 +1813,8 @@
         <source>
 					About Us
 				</source>
-        <target state="translated">
-					关于
+        <target state="needs-translation">
+					About Us
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/page-layout/page-layout.component.html</context>
@@ -1782,8 +1825,8 @@
         <source>
 					Whitepaper
 				</source>
-        <target state="translated">
-					白皮书
+        <target state="needs-translation">
+					Whitepaper
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/page-layout/page-layout.component.html</context>
@@ -1794,8 +1837,8 @@
         <source>
 					Download
 				</source>
-        <target state="translated">
-					下载
+        <target state="needs-translation">
+					Download
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/page-layout/page-layout.component.html</context>
@@ -1822,8 +1865,8 @@
         <source>
 					FAQ
 				</source>
-        <target state="translated">
-					白皮书
+        <target state="needs-translation">
+					FAQ
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/page-layout/page-layout.component.html</context>
@@ -1846,8 +1889,8 @@
         <source>
 					Follow Us
 				</source>
-        <target state="translated">
-					关注我们
+        <target state="needs-translation">
+					Follow Us
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/page-layout/page-layout.component.html</context>
@@ -1858,8 +1901,8 @@
         <source>
 					FAQ
 				</source>
-        <target state="translated">
-					白皮书
+        <target state="needs-translation">
+					FAQ
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
@@ -1870,8 +1913,8 @@
         <source>
 					About Orchid
 				</source>
-        <target state="translated">
-					关于 Orchid
+        <target state="needs-translation">
+					About Orchid
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
@@ -2038,8 +2081,8 @@
         <source>
 					Staking
 				</source>
-        <target state="translated">
-					质押
+        <target state="needs-translation">
+					Staking
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
@@ -2111,10 +2154,10 @@
                 Why should I trust a big exchange with my personal info? Would a decentralized exchange that doesn’t
                 store my personal info be better?
               </source>
-        <target state="translated">
-					Why should I trust a big exchange with my personal info? Would a decentralized exchange that doesn’t
-					store my personal info be better?
-				</target>
+        <target state="needs-translation">
+                Why should I trust a big exchange with my personal info? Would a decentralized exchange that doesn’t
+                store my personal info be better?
+              </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
           <context context-type="linenumber">145</context>
@@ -2136,8 +2179,8 @@
         <source>
 					About Orchid
 				</source>
-        <target state="translated">
-					关于 Orchid
+        <target state="needs-translation">
+					About Orchid
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
@@ -2161,12 +2204,10 @@
                 virtual private networking, including a bandwidth market where node providers stake digital currency to
                 advertise their services using the Ethereum blockchain and receive payment in OXT (Orchid’s native
                 cryptocurrency).</source>
-        <target state="translated">
-					Orchid is a decentralized, market-based system for anonymous communication and
-					virtual private networking, including a bandwidth market where node providers stake digital currency to
-					advertise their services using the Ethereum blockchain and receive payment in OXT (Orchid’s native
-					cryptocurrency).
-				</target>
+        <target state="needs-translation">Orchid is a decentralized, market-based system for anonymous communication and
+                virtual private networking, including a bandwidth market where node providers stake digital currency to
+                advertise their services using the Ethereum blockchain and receive payment in OXT (Orchid’s native
+                cryptocurrency).</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
           <context context-type="linenumber">184</context>
@@ -2187,10 +2228,8 @@
       <trans-unit id="89cfaa9cfc36f6dac688f41b3b4d51b17fd39e64" datatype="html">
         <source>Orchid’s mission is to build Open Source software that keeps the Internet open
                 and accessible — a natural resource for everyone, everywhere. </source>
-        <target state="translated">
-					Orchid’s mission is to build Open Source software that keeps the Internet open
-					and accessible — a natural resource for everyone, everywhere.
-				</target>
+        <target state="needs-translation">Orchid’s mission is to build Open Source software that keeps the Internet open
+                and accessible — a natural resource for everyone, everywhere. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
           <context context-type="linenumber">191</context>
@@ -2219,15 +2258,15 @@
                 Orchid's users connect to bandwidth sellers using a provider directory, and they pay using probabilistic
                 nanopayments so Ethereum transaction fees on packets are acceptably low.
 				</source>
-        <target state="translated">
+        <target state="needs-translation">
 					The Orchid network enables a decentralized virtual private network (VPN),
-					allowing users to buy bandwidth from a global pool of service providers.
+                allowing users to buy bandwidth from a global pool of service providers.
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					To do this, Orchid uses a digital currency called OXT, a new VPN protocol for
-					incentivized bandwidth proxying, and smart-contracts with algorithmic advertising and payment functions.
-					Orchid's users connect to bandwidth sellers using a provider directory, and they pay using probabilistic
-					nanopayments so Ethereum transaction fees on packets are acceptably low.
+                incentivized bandwidth proxying, and smart-contracts with algorithmic advertising and payment functions.
+                Orchid's users connect to bandwidth sellers using a provider directory, and they pay using probabilistic
+                nanopayments so Ethereum transaction fees on packets are acceptably low.
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
@@ -2282,28 +2321,28 @@
                 your ISP has allowed “Orchid in general” and cannot manipulate the individual bytes between you and the
                 rest of the Internet.
 				</source>
-        <target state="translated">
+        <target state="needs-translation">
 					Basic Internet connections function by transmitting packets of data between two hosts (computers). In
-					order to find their way, packets contain both a source and destination IP address. As packets move from
-					the destination to the source, different routers and physical infrastructure require both of these
-					addresses for the two-way connection to be established and maintained. This means that instantly and
-					over time, the owners of the physical infrastructure are in a position to build a profile of Internet
-					usage on their paying user (you!) and also to block content as the owner sees fit.
+                order to find their way, packets contain both a source and destination IP address. As packets move from
+                the destination to the source, different routers and physical infrastructure require both of these
+                addresses for the two-way connection to be established and maintained. This means that instantly and
+                over time, the owners of the physical infrastructure are in a position to build a profile of Internet
+                usage on their paying user (you!) and also to block content as the owner sees fit.
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					Typically these infrastructure owners are ISPs — mobile carriers providing phone data connections, home
-					cable Internet providers, WiFi hotspot operators, and any Internet backbone operators that have peering
-					agreements with user-facing ISPs. In all these cases, the ISP is in an advantaged position to monitor
-					and/or restrict Internet usage. It is common in many countries for ISPs to restrict content so that
-					users cannot load certain websites.
+                cable Internet providers, WiFi hotspot operators, and any Internet backbone operators that have peering
+                agreements with user-facing ISPs. In all these cases, the ISP is in an advantaged position to monitor
+                and/or restrict Internet usage. It is common in many countries for ISPs to restrict content so that
+                users cannot load certain websites.
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					If you are not happy with or do not trust your existing ISP(s), by using Orchid you can currently limit
-					their knowledge to knowing only that you are sending and receiving bytes through Orchid, and completely
-					block their ability to mess with the details of your traffic, unblocking the previously blocked content.
-					They either block all of Orchid or nothing, so if things continue to work after turning on Orchid, then
-					your ISP has allowed “Orchid in general” and cannot manipulate the individual bytes between you and the
-					rest of the Internet.
+                their knowledge to knowing only that you are sending and receiving bytes through Orchid, and completely
+                block their ability to mess with the details of your traffic, unblocking the previously blocked content.
+                They either block all of Orchid or nothing, so if things continue to work after turning on Orchid, then
+                your ISP has allowed “Orchid in general” and cannot manipulate the individual bytes between you and the
+                rest of the Internet.
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
@@ -2340,13 +2379,13 @@
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					In a single-hop circuit configuration, Orchid provides:
 				</source>
-        <target state="translated">
+        <target state="needs-translation">
 					The goal with the Orchid app is to give users insight and control over the network connection of their
-					device. To gain privacy, users configure a circuit in Orchid by setting up an Orchid account and funding
-					it with OXT. Then the Orchid app connects to the Orchid network and selects a node using Orchid’s
+                device. To gain privacy, users configure a circuit in Orchid by setting up an Orchid account and funding
+                it with OXT. Then the Orchid app connects to the Orchid network and selects a node using Orchid’s
 					<x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
 					linear stake-weighted
-					algorithm
+                  algorithm
 					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
 					to serve as a VPN and pays for bandwidth via a continuous stream of tiny OXT
 					<x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>
@@ -2390,11 +2429,9 @@
         <source>Access to the open Internet--once a user can connect to Orchid, they are not restricted by ISP
                   level
                   firewalls and can browse the entire Internet freely</source>
-        <target state="translated">
-					Access to the open Internet--once a user can connect to Orchid, they are not restricted by ISP
-					level
-					firewalls and can browse the entire Internet freely
-				</target>
+        <target state="needs-translation">Access to the open Internet--once a user can connect to Orchid, they are not restricted by ISP
+                  level
+                  firewalls and can browse the entire Internet freely</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
           <context context-type="linenumber">254</context>
@@ -2421,12 +2458,12 @@
                 information to reveal their circuit, this is an advanced feature that is currently “use at your own
                 risk”.
 				</source>
-        <target state="translated">
+        <target state="needs-translation">
 					A potential problem with using only a single VPN provider is that the provider running the single node
-					circuit knows both your IP address and the content you are accessing. If the provider maintains logs,
-					those logs could be sold to advertisers or otherwise used against you. In the current VPN marketplace,
-					it is hard to know who is maintaining logs and who is not. For Orchid nodes, we have developed a
-					flexible curation system that gives users a way to pick whom to trust.
+                circuit knows both your IP address and the content you are accessing. If the provider maintains logs,
+                those logs could be sold to advertisers or otherwise used against you. In the current VPN marketplace,
+                it is hard to know who is maintaining logs and who is not. For Orchid nodes, we have developed a
+                flexible curation system that gives users a way to pick whom to trust.
 					<x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
 					Read more here
 					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
@@ -2434,12 +2471,12 @@
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					Another solution is to trust no single provider with enough information to know both who you are and
-					what information you are accessing. To that end, Orchid supports an advanced feature that allows users
-					to configure multi-hop routes of their own, by stringing together several Orchid nodes into a multi-hop
-					circuit. Each hop may be constructed with any protocol supported by Orchid (initially just Orchid hops
-					and OpenVPN). While the potential is there to protect the user from any one provider knowing enough
-					information to reveal their circuit, this is an advanced feature that is currently “use at your own
-					risk”.
+                what information you are accessing. To that end, Orchid supports an advanced feature that allows users
+                to configure multi-hop routes of their own, by stringing together several Orchid nodes into a multi-hop
+                circuit. Each hop may be constructed with any protocol supported by Orchid (initially just Orchid hops
+                and OpenVPN). While the potential is there to protect the user from any one provider knowing enough
+                information to reveal their circuit, this is an advanced feature that is currently “use at your own
+                risk”.
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
@@ -2504,50 +2541,50 @@
                 route than the traffic, preventing the rare occasional public payment records from indirectly revealing
                 route information.
 				</source>
-        <target state="translated">
+        <target state="needs-translation">
 					When a user sets up an Orchid hop, the Orchid protocol requires a digital currency, OXT, to send tiny
-					and continuous nanopayments to providers for the duration of the connection. While the
+                and continuous nanopayments to providers for the duration of the connection. While the
 					<x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
 					nanopayment architecture
 					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
 					locks user funds
-					into a smart contract and only issues on-chain payments to providers very rarely, occasional winning
-					tickets result in OXT payments posted on the public Ethereum blockchain. When that happens, the user’s
-					Ethereum address, the provider’s Ethereum address, and a timestamp are stored on the Ethereum
-					blockchain. Note that the address of the provider is not a mapping to a single server, but rather the
-					wallet that the provider created to receive funds for running the Orchid node. Also, the frequency of
-					how often on-chain payments occur is configurable.
+                into a smart contract and only issues on-chain payments to providers very rarely, occasional winning
+                tickets result in OXT payments posted on the public Ethereum blockchain. When that happens, the user’s
+                Ethereum address, the provider’s Ethereum address, and a timestamp are stored on the Ethereum
+                blockchain. Note that the address of the provider is not a mapping to a single server, but rather the
+                wallet that the provider created to receive funds for running the Orchid node. Also, the frequency of
+                how often on-chain payments occur is configurable.
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					All information gained by a potential network attacker is an advantage. However, consider exactly what
-					information is revealed. For an Orchid user running a single hop circuit: the provider sees the user’s
-					payment address when it accepts service, along with the user’s real IP address and the destination
-					addresses that the user is connecting to (if it maintains logs). Once a rare on-chain payment is made,
-					the user’s payment address and provider’s payment address are stored on Ethereum with a timestamp
-					available to the public.
+                information is revealed. For an Orchid user running a single hop circuit: the provider sees the user’s
+                payment address when it accepts service, along with the user’s real IP address and the destination
+                addresses that the user is connecting to (if it maintains logs). Once a rare on-chain payment is made,
+                the user’s payment address and provider’s payment address are stored on Ethereum with a timestamp
+                available to the public.
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					When considering anonymity, it is important to understand if the user is linked to the OXT used in their
-					circuit. Worst case, if the user purchased OXT on an exchange with their real identity, AND the VPN
-					provider used in the circuit maintained logs, then either of those two entities could be compelled to
-					give information that could deanonymize the user. Similarly, a user who paid for a VPN service that
-					maintained logs with a credit card could be deanonymized with just one entity being compelled.
+                circuit. Worst case, if the user purchased OXT on an exchange with their real identity, AND the VPN
+                provider used in the circuit maintained logs, then either of those two entities could be compelled to
+                give information that could deanonymize the user. Similarly, a user who paid for a VPN service that
+                maintained logs with a credit card could be deanonymized with just one entity being compelled.
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					A multi-hop circuit affords greater network protections, but to setup a multi-hop Orchid circuit, it
-					would be naive to pay for each hop from the same Ethereum wallet. In that configuration, each provider
-					would be able to see that wallet’s address and potentially use that address to get information about the
-					user. To mitigate that, a better way to setup multi-hop circuits would be to use different wallet
-					addresses for each Orchid hop. If every wallet address is independently dissociated from the user, the
-					full circuit might be quite difficult to link back to the user. Again, the multi-hop circuit feature in
-					Orchid is advanced, and use it at your own risk.
+                would be naive to pay for each hop from the same Ethereum wallet. In that configuration, each provider
+                would be able to see that wallet’s address and potentially use that address to get information about the
+                user. To mitigate that, a better way to setup multi-hop circuits would be to use different wallet
+                addresses for each Orchid hop. If every wallet address is independently dissociated from the user, the
+                full circuit might be quite difficult to link back to the user. Again, the multi-hop circuit feature in
+                Orchid is advanced, and use it at your own risk.
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					Orchid is working on additional features to mitigate payment leakage, such as onion payment routing. The
-					idea of this technique is to help obfuscate payments by routing them through several layers of
-					indirection (Alice paying Bob to pay Charlie to pay Debrah). The payments then take a different random
-					route than the traffic, preventing the rare occasional public payment records from indirectly revealing
-					route information.
+                idea of this technique is to help obfuscate payments by routing them through several layers of
+                indirection (Alice paying Bob to pay Charlie to pay Debrah). The payments then take a different random
+                route than the traffic, preventing the rare occasional public payment records from indirectly revealing
+                route information.
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
@@ -2595,33 +2632,33 @@
                 as users could pick or make their own curated list of providers that they trust or someone that they
                 trust, trusts. Orchid has a default list of trusted providers that will ship with the Orchid app.
 				</source>
-        <target state="translated">
+        <target state="needs-translation">
 					Yes, providers on Orchid could monitor the bytes that come in and out of the Orchid node. However, all
-					traffic carried over Orchid between hops from the user to the exit is encrypted at the Orchid protocol
-					level, which is an additional layer of encryption. The final exit traffic is then decrypted by the exit
-					node and sent to the destination. In many cases the underlying traffic will also be encrypted with
-					protocols such as TLS, providing at least two layers of encryption.
+                traffic carried over Orchid between hops from the user to the exit is encrypted at the Orchid protocol
+                level, which is an additional layer of encryption. The final exit traffic is then decrypted by the exit
+                node and sent to the destination. In many cases the underlying traffic will also be encrypted with
+                protocols such as TLS, providing at least two layers of encryption.
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					However, not all traffic on the Internet is encrypted and Orchid doesn’t fix that problem. The last hop
-					configured in the active circuit will need to send the user requests out onto the Internet. So if the
-					user sends an HTTP request, which has no SSL/TLS encryption, Orchid will honor that request and
-					cleartext information would be revealed to the Orchid node. For this reason, you should always use
-					SSL/TLS for sensitive Internet connections, even on Orchid. And even SSL/TLS encryption leaves metadata
-					that the Orchid node could monitor, including the destination address, hostname, packet sizes and the
-					timing of packets.
+                configured in the active circuit will need to send the user requests out onto the Internet. So if the
+                user sends an HTTP request, which has no SSL/TLS encryption, Orchid will honor that request and
+                cleartext information would be revealed to the Orchid node. For this reason, you should always use
+                SSL/TLS for sensitive Internet connections, even on Orchid. And even SSL/TLS encryption leaves metadata
+                that the Orchid node could monitor, including the destination address, hostname, packet sizes and the
+                timing of packets.
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					Using Orchid’s multi-hop feature with a three hop circuit would compartmentalize the information any one
-					provider could monitor. With a properly configured multi-hop circuit the origin and destination of the
-					traffic would be anonymized from any one provider, however, that is an advanced feature which is
-					certainly “use at your own risk”. The way the different Orchid hops are funded has an impact on
-					information leakage that could potentially de-anonymize.
+                provider could monitor. With a properly configured multi-hop circuit the origin and destination of the
+                traffic would be anonymized from any one provider, however, that is an advanced feature which is
+                certainly “use at your own risk”. The way the different Orchid hops are funded has an impact on
+                information leakage that could potentially de-anonymize.
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					Lastly, every Orchid user has a “curated list” of providers. This adds an additional layer of protection
-					as users could pick or make their own curated list of providers that they trust or someone that they
-					trust, trusts. Orchid has a default list of trusted providers that will ship with the Orchid app.
+                as users could pick or make their own curated list of providers that they trust or someone that they
+                trust, trusts. Orchid has a default list of trusted providers that will ship with the Orchid app.
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
@@ -2685,50 +2722,51 @@
 					Orchid is researching “bandwidth burning” and related techniques to help obfuscate a user’s traffic
                 against these advanced packet timing and size analysis attacks.
 				</source>
-        <target state="translated">
+        <target state="needs-translation">
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>
 					No.
 					<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>
+
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					Orchid is a tool that keeps private certain types of information from ISPs, websites, and providers.
-					Orchid adds layers that separate you from the content you are trying to access. If you login to Amazon,
-					the website will know that it is you and can build out information about what you are doing on their
-					website, even with Orchid enabled. However, your local ISP or network provider will not know you are
-					visiting Amazon. Amazon will not know where you are in the world, and will not get your real IP address.
-					If using at least three hops, no single provider will know your IP address and know that you are
-					accessing Amazon.
+                Orchid adds layers that separate you from the content you are trying to access. If you login to Amazon,
+                the website will know that it is you and can build out information about what you are doing on their
+                website, even with Orchid enabled. However, your local ISP or network provider will not know you are
+                visiting Amazon. Amazon will not know where you are in the world, and will not get your real IP address.
+                If using at least three hops, no single provider will know your IP address and know that you are
+                accessing Amazon.
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					Also consider that Orchid is a VPN and that all VPNs have vulnerabilities at the software level. Typical
-					modern browsers that are not “hardened” run all sorts of “active content” such as Java, Javascript,
-					Adobe Flash, Adobe Shockwave, QuickTime, RealAudio, ActiveX controls, and VBScript and other binary
-					applications. This code runs at the operating system level with user account access, meaning they can
-					access anything your user account can access. These technologies could store cookies, bypass proxy
-					settings, store other types of data and share information directly to other sites on the Internet.
-					Therefore, these technologies must be disabled in the browser you are using to improve your security in
-					conjunction with using Orchid.
+                modern browsers that are not “hardened” run all sorts of “active content” such as Java, Javascript,
+                Adobe Flash, Adobe Shockwave, QuickTime, RealAudio, ActiveX controls, and VBScript and other binary
+                applications. This code runs at the operating system level with user account access, meaning they can
+                access anything your user account can access. These technologies could store cookies, bypass proxy
+                settings, store other types of data and share information directly to other sites on the Internet.
+                Therefore, these technologies must be disabled in the browser you are using to improve your security in
+                conjunction with using Orchid.
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					Also certain apps or code running on your device could send de-anonymizing data out to the Internet or
-					third parties. No VPN can prevent attacks from software running on your device, such as malware or a
-					virus.
+                third parties. No VPN can prevent attacks from software running on your device, such as malware or a
+                virus.
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					Furthermore, there are active areas of network security research into “traffic fingerprinting” that
-					attempt to reveal private information by monitoring encrypted connections. By watching the timing and
-					size of packets, an adversary watching an encrypted connection could get a good idea if a particular
-					user is watching a video, browsing the Internet or downloading a large file, based on the timing and
-					size of the packets flowing. Further analysis could reveal what websites are visited by seeing the
-					sequence of things that are loaded— again, the timing and size of packets along with when requests are
-					made. Other metadata such as the size of the browser window, type of pointing device used and other
-					unique information could be used to “fingerprint” the user and potentially de-anonymize. These are
-					attacks that affect all VPN users, Orchid included.
+                attempt to reveal private information by monitoring encrypted connections. By watching the timing and
+                size of packets, an adversary watching an encrypted connection could get a good idea if a particular
+                user is watching a video, browsing the Internet or downloading a large file, based on the timing and
+                size of the packets flowing. Further analysis could reveal what websites are visited by seeing the
+                sequence of things that are loaded— again, the timing and size of packets along with when requests are
+                made. Other metadata such as the size of the browser window, type of pointing device used and other
+                unique information could be used to “fingerprint” the user and potentially de-anonymize. These are
+                attacks that affect all VPN users, Orchid included.
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					Orchid is researching “bandwidth burning” and related techniques to help obfuscate a user’s traffic
-					against these advanced packet timing and size analysis attacks.
+                against these advanced packet timing and size analysis attacks.
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
@@ -2765,13 +2803,11 @@
                 tool to promote security and healthy market dynamics, as providers can adjust their OXT stake to remain
                 competitive. At launch we intend there to be a limited supply of one billion (1,000,000,000). We do not
                 intend ever to create any additional OXT.</source>
-        <target state="translated">
-					OXT is a “pre-mined” cryptocurrency based on the ERC-20 standard that will be
-					used to decentralize trust between buyers and sellers in the Orchid marketplace. It also functions as a
-					tool to promote security and healthy market dynamics, as providers can adjust their OXT stake to remain
-					competitive. At launch we intend there to be a limited supply of one billion (1,000,000,000). We do not
-					intend ever to create any additional OXT.
-				</target>
+        <target state="needs-translation">OXT is a “pre-mined” cryptocurrency based on the ERC-20 standard that will be
+                used to decentralize trust between buyers and sellers in the Orchid marketplace. It also functions as a
+                tool to promote security and healthy market dynamics, as providers can adjust their OXT stake to remain
+                competitive. At launch we intend there to be a limited supply of one billion (1,000,000,000). We do not
+                intend ever to create any additional OXT.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
           <context context-type="linenumber">418</context>
@@ -2811,26 +2847,26 @@
 					The curated list mechanism is a means for the importation of external
                 reputational trust to supplement the economic incentive based trust provided by node staking.
 				</source>
-        <target state="translated">
+        <target state="needs-translation">
 					The Orchid client calls an on-chain ‘curated list’ function which filters the
-					viable nodes on Orchid (that is, nodes that have properly staked) into a custom subset. Initial releases
-					of the official Orchid client will use this feature to prevent certain kinds of attacks from malicious
-					exit nodes (e.g. SSL downgrade attacks) by using a default list consisting of trusted VPN partners.
+                viable nodes on Orchid (that is, nodes that have properly staked) into a custom subset. Initial releases
+                of the official Orchid client will use this feature to prevent certain kinds of attacks from malicious
+                exit nodes (e.g. SSL downgrade attacks) by using a default list consisting of trusted VPN partners.
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					Overall, the curated lists are a federated reputation solution for determining
-					what VPN providers on Orchid you can trust. The system is fully programmable, exists on-chain and is
-					Turing complete. The list function can take information as an argument, and then use that information to
-					determine, for any given Orchid node, whether you want to connect to that node or not.
+                what VPN providers on Orchid you can trust. The system is fully programmable, exists on-chain and is
+                Turing complete. The list function can take information as an argument, and then use that information to
+                determine, for any given Orchid node, whether you want to connect to that node or not.
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					Customized Orchid clients can use their own lists, the official Orchid client
-					can select from different lists and eventually we expect well known third parties to emerge as curators.
-					Given that this system is on-chain, an entity such as a DAO could manage a list too.
+                can select from different lists and eventually we expect well known third parties to emerge as curators.
+                Given that this system is on-chain, an entity such as a DAO could manage a list too.
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					The curated list mechanism is a means for the importation of external
-					reputational trust to supplement the economic incentive based trust provided by node staking.
+                reputational trust to supplement the economic incentive based trust provided by node staking.
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
@@ -2855,13 +2891,11 @@
                 of WebRTC, a common web standard, widely used to transmit video and audio from inside browsers. Our
                 protocol is intended to allow users to request access to remote network resources and pay for these
                 resources using OXT via a nanopayments system.</source>
-        <target state="translated">
-					The Orchid software is designed to use a custom VPN protocol, similar in scope
-					to OpenVPN or WireGuard. The Orchid protocol is designed for high-performance networking and runs on top
-					of WebRTC, a common web standard, widely used to transmit video and audio from inside browsers. Our
-					protocol is intended to allow users to request access to remote network resources and pay for these
-					resources using OXT via a nanopayments system.
-				</target>
+        <target state="needs-translation">The Orchid software is designed to use a custom VPN protocol, similar in scope
+                to OpenVPN or WireGuard. The Orchid protocol is designed for high-performance networking and runs on top
+                of WebRTC, a common web standard, widely used to transmit video and audio from inside browsers. Our
+                protocol is intended to allow users to request access to remote network resources and pay for these
+                resources using OXT via a nanopayments system.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
           <context context-type="linenumber">445</context>
@@ -2879,8 +2913,8 @@
         <source>
 					Staking
 				</source>
-        <target state="translated">
-					质押
+        <target state="needs-translation">
+					Staking
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
@@ -2913,18 +2947,18 @@
                 automatic benefits of staking on someone else’s behalf, but the staking mechanism could be combined with
                 a revenue sharing contract between the staker and the stakee.
 				</source>
-        <target state="translated">
+        <target state="needs-translation">
 					Staking is a process where one deposits and locks up an asset into an illiquid
-					contract or mechanism in exchange for revenue or rewards. Orchid providers stake OXT in an Ethereum
-					smart contract (the directory) to advertise their services to clients. Orchid clients then select
-					providers randomly, weighted by proportional stake, so that the probability of picking a particular
-					provider is equal to their fraction of the total stake.
+                contract or mechanism in exchange for revenue or rewards. Orchid providers stake OXT in an Ethereum
+                smart contract (the directory) to advertise their services to clients. Orchid clients then select
+                providers randomly, weighted by proportional stake, so that the probability of picking a particular
+                provider is equal to their fraction of the total stake.
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					Anyone else can also stake on a provider’s address, allowing a form of
-					“delegated staking”. Any OXT holder can stake their OXT on providers of their choosing. There are no
-					automatic benefits of staking on someone else’s behalf, but the staking mechanism could be combined with
-					a revenue sharing contract between the staker and the stakee.
+                “delegated staking”. Any OXT holder can stake their OXT on providers of their choosing. There are no
+                automatic benefits of staking on someone else’s behalf, but the staking mechanism could be combined with
+                a revenue sharing contract between the staker and the stakee.
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
@@ -2949,12 +2983,11 @@
                 automatically earn revenue just by running nodes with stake. Orchid has no such automatic mechanism, and
                 has no inflation to fund staking. The only source of income on Orchid is customers paying for bandwidth.
               </source>
-        <target state="translated">
-					Staking in Orchid is similar to proof of stake systems only in the sense of
-					using stake as a linear weighting mechanism. In most proof-of-stake systems stakeholders can
-					automatically earn revenue just by running nodes with stake. Orchid has no such automatic mechanism, and
-					has no inflation to fund staking. The only source of income on Orchid is customers paying for bandwidth.
-				</target>
+        <target state="needs-translation">Staking in Orchid is similar to proof of stake systems only in the sense of
+                using stake as a linear weighting mechanism. In most proof-of-stake systems stakeholders can
+                automatically earn revenue just by running nodes with stake. Orchid has no such automatic mechanism, and
+                has no inflation to fund staking. The only source of income on Orchid is customers paying for bandwidth.
+              </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
           <context context-type="linenumber">477</context>
@@ -3006,38 +3039,38 @@
 					Eventually third party websites could provide an interface to help simplify and
                 automate the process of finding, evaluating and staking on Orchid bandwidth providers.
 				</source>
-        <target state="translated">
+        <target state="needs-translation">
 					You can find an Orchid bandwidth provider who is seeking staking partners in
-					exchange for a share of revenue or recurring payments - using any on-chain or off-chain mechanism.
+                exchange for a share of revenue or recurring payments - using any on-chain or off-chain mechanism.
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					An Ethereum smart contract can be used to help automatically split revenue
-					between a staker and a provider. The staker would stake on the smart contract, and the provider would
-					direct client payments to the smart contract, which would then allow each party to withdraw some
-					parameterized fraction of the funds.
+                between a staker and a provider. The staker would stake on the smart contract, and the provider would
+                direct client payments to the smart contract, which would then allow each party to withdraw some
+                parameterized fraction of the funds.
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					Note that any such delegated staking arrangement (even using on-chain
-					mechanisms) can not guarantee that the provider will actually honor the contract: the provider could
-					easily direct clients to a different payment address. And even if the provider is perfectly honest,
-					there is still ultimately uncertainty in revenue and consequent return on stake.
+                mechanisms) can not guarantee that the provider will actually honor the contract: the provider could
+                easily direct clients to a different payment address. And even if the provider is perfectly honest,
+                there is still ultimately uncertainty in revenue and consequent return on stake.
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					As an alternative to revenue sharing, providers could send recurring payments
-					to the staker - essentially a stake rental or leasing arrangement. In this case the return is more
-					predictable, but there is still no guarantee that the provider will make the scheduled payments. Again a
-					smart contract could be used to help automate the payments, but can not guarantee the provider will have
-					the necessary funds. There is always risk.
+                to the staker - essentially a stake rental or leasing arrangement. In this case the return is more
+                predictable, but there is still no guarantee that the provider will make the scheduled payments. Again a
+                smart contract could be used to help automate the payments, but can not guarantee the provider will have
+                the necessary funds. There is always risk.
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					When a staker decides to repoint their stake to a different provider, there is
-					a lengthy withdrawal delay (currently about 3 months). So it is important for stakers to choose
-					providers carefully. Stakers should start with small allocations and slowly increase them based on
-					measured profitability.
+                a lengthy withdrawal delay (currently about 3 months). So it is important for stakers to choose
+                providers carefully. Stakers should start with small allocations and slowly increase them based on
+                measured profitability.
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					Eventually third party websites could provide an interface to help simplify and
-					automate the process of finding, evaluating and staking on Orchid bandwidth providers.
+                automate the process of finding, evaluating and staking on Orchid bandwidth providers.
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
@@ -3077,16 +3110,14 @@
                 funds comes from your personal Ethereum wallet linked to other services, anyone using Etherscan would be
                 able to see that you used Orchid and sent payments to VPN providers, when the occasional Orchid
                 nanopayment system issues a winning ticket.</source>
-        <target state="translated">
-					While you could use your primary Ethereum wallet that you typically use for
-					other Ethereum applications, we do not recommend it if you are seeking privacy with Orchid. The main
-					reason is that using Orchid results in on chain payments flowing from your wallet to the Orchid
-					nanopayment contract, and then on to VPN providers selling bandwidth. Ethereum on-chain analytics can
-					easily link payments to/from the nanopayment smart contract and then to providers. If the source of the
-					funds comes from your personal Ethereum wallet linked to other services, anyone using Etherscan would be
-					able to see that you used Orchid and sent payments to VPN providers, when the occasional Orchid
-					nanopayment system issues a winning ticket.
-				</target>
+        <target state="needs-translation">While you could use your primary Ethereum wallet that you typically use for
+                other Ethereum applications, we do not recommend it if you are seeking privacy with Orchid. The main
+                reason is that using Orchid results in on chain payments flowing from your wallet to the Orchid
+                nanopayment contract, and then on to VPN providers selling bandwidth. Ethereum on-chain analytics can
+                easily link payments to/from the nanopayment smart contract and then to providers. If the source of the
+                funds comes from your personal Ethereum wallet linked to other services, anyone using Etherscan would be
+                able to see that you used Orchid and sent payments to VPN providers, when the occasional Orchid
+                nanopayment system issues a winning ticket.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
           <context context-type="linenumber">520</context>
@@ -3095,10 +3126,8 @@
       <trans-unit id="da45cb22426af95a4fcaa592dae5136b5fbc1e5e" datatype="html">
         <source>Why should I trust a big exchange with my personal info? Would a
                 decentralized exchange that doesn’t store my personal info be better?</source>
-        <target state="translated">
-					Why should I trust a big exchange with my personal info? Would a
-					decentralized exchange that doesn’t store my personal info be better?
-				</target>
+        <target state="needs-translation">Why should I trust a big exchange with my personal info? Would a
+                decentralized exchange that doesn’t store my personal info be better?</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
           <context context-type="linenumber">530</context>
@@ -3119,19 +3148,19 @@
                 tracked to your identity on the blockchain without the exchange being hacked, subpoenaed or otherwise
                 compromised.
 				</source>
-        <target state="translated">
+        <target state="needs-translation">
 					While a decentralized exchange does not store your personal information that
-					could link your source of funds to your identity, a decentralized exchange does typically require an
-					Ethereum account with some sort of crypto such as ETH, which has its own history of transactions. If
-					that ETH or wallet is linked to your identity, then the source of funds could be linked through the DEX
-					back to your originating Ethereum wallet.
+                could link your source of funds to your identity, a decentralized exchange does typically require an
+                Ethereum account with some sort of crypto such as ETH, which has its own history of transactions. If
+                that ETH or wallet is linked to your identity, then the source of funds could be linked through the DEX
+                back to your originating Ethereum wallet.
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					A large exchange typically has a ledger they use to keep track of ownership,
-					with a hot wallet they use to send funds in and out of the exchange. While the exchange knows your
-					identity, the movement of currency in and out of the exchange is anonymous, as the funds can’t be
-					tracked to your identity on the blockchain without the exchange being hacked, subpoenaed or otherwise
-					compromised.
+                with a hot wallet they use to send funds in and out of the exchange. While the exchange knows your
+                identity, the movement of currency in and out of the exchange is anonymous, as the funds can’t be
+                tracked to your identity on the blockchain without the exchange being hacked, subpoenaed or otherwise
+                compromised.
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
@@ -3155,12 +3184,10 @@
                 uses Ethereum. Certain operations require the use of ETH for gas to power the smart contracts that run
                 Orchid. For users who use the Orchid app, ETH is required when adding or removing funds from your Orchid
                 account through the web3 browser interface.</source>
-        <target state="translated">
-					Orchid is a series of decentralized smart contracts and client software that
-					uses Ethereum. Certain operations require the use of ETH for gas to power the smart contracts that run
-					Orchid. For users who use the Orchid app, ETH is required when adding or removing funds from your Orchid
-					account through the web3 browser interface.
-				</target>
+        <target state="needs-translation">Orchid is a series of decentralized smart contracts and client software that
+                uses Ethereum. Certain operations require the use of ETH for gas to power the smart contracts that run
+                Orchid. For users who use the Orchid app, ETH is required when adding or removing funds from your Orchid
+                account through the web3 browser interface.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/faq/faq.component.html</context>
           <context context-type="linenumber">546</context>
@@ -3170,8 +3197,8 @@
         <source>
 					Contact
 				</source>
-        <target state="translated">
-					联系
+        <target state="needs-translation">
+					Contact
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/contact.component.html</context>
@@ -3192,14 +3219,14 @@
           shortly.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 				</source>
-        <target state="translated">
+        <target state="needs-translation">
 					<x id="START_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;h3&gt;"/>
-					衷心期待您的来信
+					We want to hear from you
 					<x id="CLOSE_HEADING_LEVEL3" ctype="x-h3" equiv-text="&lt;/h3&gt;"/>
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					让我们一起重新掌控互联网！我们期待能有机会展开多方合作，特别是想要与
-					Orchid 共同发展的基础架构提供商和集成合作伙伴。请与我们联系，我们会尽
-					快回复您。
+					Let's reclaim the Internet together! We are looking for partnership opportunities with infrastructure
+          providers and integration partners that want to build with Orchid. Contact us and we'll get back to you
+          shortly.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 				</target>
         <context-group purpose="location">
@@ -3215,8 +3242,8 @@
         <source>
 					Mailing Address
 				</source>
-        <target state="translated">
-					办公地址
+        <target state="needs-translation">
+					Mailing Address
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/contact.component.html</context>
@@ -3228,10 +3255,10 @@
           1288 Columbus Ave. #122,
           San Francisco, CA 94133
         </source>
-        <target state="translated">
-					1288 Columbus Ave. #122,
-					San Francisco, CA 94133
-				</target>
+        <target state="needs-translation">
+          1288 Columbus Ave. #122,
+          San Francisco, CA 94133
+        </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/contact.component.html</context>
           <context context-type="linenumber">27</context>
@@ -3241,8 +3268,8 @@
         <source>
 					Contact Info
 				</source>
-        <target state="translated">
-					联系信息
+        <target state="needs-translation">
+					Contact Info
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/contact.component.html</context>
@@ -3401,8 +3428,8 @@
         <source>
 					Your Name
 				</source>
-        <target state="translated">
-					您的姓名
+        <target state="needs-translation">
+					Your Name
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/contact.component.html</context>
@@ -3417,8 +3444,8 @@
         <source>
 					Your Email
 				</source>
-        <target state="translated">
-					您的电子邮件
+        <target state="needs-translation">
+					Your Email
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/contact.component.html</context>
@@ -3433,8 +3460,8 @@
         <source>
 					Subject
 				</source>
-        <target state="translated">
-					主题
+        <target state="needs-translation">
+					Subject
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/contact.component.html</context>
@@ -3449,8 +3476,8 @@
         <source>
 					Enter your message...
 				</source>
-        <target state="translated">
-					输入您的消息...
+        <target state="needs-translation">
+					Enter your message...
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/contact.component.html</context>
@@ -3465,8 +3492,8 @@
         <source>
 					Required fields are missing
 				</source>
-        <target state="translated">
-					必填字段缺少内容
+        <target state="needs-translation">
+					Required fields are missing
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/contact.component.html</context>
@@ -3481,8 +3508,8 @@
         <source>
 					There was an unknown error, your message may not have been sent
 				</source>
-        <target state="translated">
-					发生未知错误，您的消息可能未发送
+        <target state="needs-translation">
+					There was an unknown error, your message may not have been sent
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/contact.component.html</context>
@@ -3497,8 +3524,8 @@
         <source>
 					Your message has been sent
 				</source>
-        <target state="translated">
-					消息已发送
+        <target state="needs-translation">
+					Your message has been sent
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/contact.component.html</context>
@@ -3513,8 +3540,8 @@
         <source>
 					Submit
 				</source>
-        <target state="translated">
-					发送
+        <target state="needs-translation">
+					Submit
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/contact.component.html</context>
@@ -3529,8 +3556,8 @@
         <source>
 					Clear
 				</source>
-        <target state="translated">
-					清除
+        <target state="needs-translation">
+					Clear
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/contact/contact.component.html</context>
@@ -3553,12 +3580,16 @@
 					together
 					<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
 				</source>
-        <target state="translated">
-					我们可以
+        <target state="needs-translation">
+					We can
+					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+					reclaim the
+					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+					internet
+					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					<x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>
-					团结协作，
+					together
 					<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
-					重新掌控互联网
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/about-company/about-company.component.html</context>
@@ -3595,21 +3626,34 @@
         privacy network in December, 2019.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 				</source>
-        <target state="translated">
+        <target state="needs-translation">
+					<x id="START_HEADING_LEVEL2" ctype="x-h2" equiv-text="&lt;h2&gt;"/>
+					Why build a privacy network?
+					<x id="CLOSE_HEADING_LEVEL2" ctype="x-h2" equiv-text="&lt;/h2&gt;"/>
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					互联网开启了一个无限的信息世界。它的创造者邀请我们心怀好奇心去自由探索这个世界。
+					The Internet opened up an unlimited world of information. Its creators invited us to bring our curiosity and
+        explore that world freely.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					随着互联网不断发展，自由探索变得日益困难。 Web 2.0 业务模式激励公司监视和跟踪我们的行为以及出售我们的数据。而且在有些地方，我们只能看到有限的信息。
+					As the Internet grew, exploring freely became harder. Web 2.0 business models incentivized companies to watch
+        and track us and sell our data. And in some places, limits were placed on the information we can see.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					但情况正在改变。 借助基于以太坊构建的去中心化 Web 3.0，用户可以重新掌控互联网。
+					But that is changing. The decentralized Web 3.0 being built on Ethereum is allowing the Internet to be reclaimed
+        by its users.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					Orchid 的所有人共同承担着这一使命。 如今，我们使用 Web 3.0 技术为用户提供更好的数字隐私，这样我们就可以实现 Web 1.0 的承诺并再次展开自由探索。
+					At Orchid we share in this mission. We use Web 3.0 technology to offer users better digital privacy today, so we
+        can realize the promise of the Web 1.0 and explore freely again.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
+
 					<x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/>
-					Orchid 成立于 2017 年，旨在帮助恢复互联网面向所有人的开放性和可访问性。 自那时起，我们就已在旧金山和柏林组建了一支优秀的团队，他们将于 2019 年第四季度发布 Orchid 基于代币的 VPN。
+					Orchid was founded in 2017 to help restore the open and accessible Internet for everyone. Since then, we have
+        grown an incredible team based in San Francisco and Berlin and launched the first incentivized, peer-to-peer
+        privacy network in December, 2019.
 					<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/>
 				</target>
         <context-group purpose="location">
@@ -3636,9 +3680,12 @@
           package management (Cydia) and security (Wells Fargo’s 1st Online Banking employee, Ethereum core security
           team).
         </source>
-        <target state="translated">
-					Orchid’s founders bring together deep experience in the open source software community (BASH Shell, GNU Finger), technology management (RPX IPO), blockchain investment (Bitstamp, Pantera Capital), jailbroken app package management (Cydia) and security (Wells Fargo’s 1st Online Banking employee, Ethereum core security team).
-				</target>
+        <target state="needs-translation">
+          Orchid’s founders bring together deep experience in the open source software community (BASH Shell, GNU
+          Finger), technology management (RPX IPO), blockchain investment (Bitstamp, Pantera Capital), jailbroken app
+          package management (Cydia) and security (Wells Fargo’s 1st Online Banking employee, Ethereum core security
+          team).
+        </target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/about-company/about-company.component.html</context>
           <context context-type="linenumber">104</context>
@@ -4208,8 +4255,8 @@
         <source>
 					Corporate info
 				</source>
-        <target state="translated">
-					公司信息
+        <target state="needs-translation">
+					Corporate info
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/about-company/about-company.component.html</context>
@@ -4220,8 +4267,8 @@
         <source>
 					Orchid is a Delaware c-corp
 				</source>
-        <target state="translated">
-					Orchid 是一家位于特拉华州的股份有限公司
+        <target state="needs-translation">
+					Orchid is a Delaware c-corp
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/about-company/about-company.component.html</context>
@@ -4236,8 +4283,8 @@
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					San Francisco, CA 94133
 				</source>
-        <target state="translated">
-					总部：
+        <target state="needs-translation">
+					Headquarters:
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					1288 Columbus Ave. #122,
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
@@ -4256,8 +4303,8 @@
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					10997 Berlin, Germany
 				</source>
-        <target state="translated">
-					欧洲：
+        <target state="needs-translation">
+					Europe:
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
 					Skalitzer Str. 85,
 					<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
@@ -4271,9 +4318,8 @@
       <trans-unit id="AboutCompanyCorporate__SECFilingButton" datatype="html">
         <source>SEC
           Filing</source>
-        <target state="translated">
-					SEC 备案
-				</target>
+        <target state="needs-translation">SEC
+          Filing</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/about-company/about-company.component.html</context>
           <context context-type="linenumber">421</context>
@@ -4282,9 +4328,8 @@
       <trans-unit id="AboutCompanyCorporate__PressKitButton" datatype="html">
         <source>Press
           Kit</source>
-        <target state="translated">
-					新闻资料
-				</target>
+        <target state="needs-translation">Press
+          Kit</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/about-company/about-company.component.html</context>
           <context context-type="linenumber">423</context>
@@ -4588,8 +4633,8 @@
         <source>
 					Orchid Account Set-up
 				</source>
-        <target state="translated">
-					Orchid 帐户设置
+        <target state="needs-translation">
+					Orchid Account Set-up
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/join/join.component.html</context>
@@ -4600,8 +4645,8 @@
         <source>
 					To start using Orchid, you need an Orchid account. There are three ways to get access to an Orchid account right now:
 				</source>
-        <target state="translated">
-					如要使用 Orchid ，您需要先拥有一个 Orchid 帐户。 现在，您可通过三种方式获取 Orchid 帐户：
+        <target state="needs-translation">
+					To start using Orchid, you need an Orchid account. There are three ways to get access to an Orchid account right now:
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/join/join.component.html</context>
@@ -4619,15 +4664,15 @@
 					You can create an account with OXT
 					<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
 				</source>
-        <target state="translated">
+        <target state="needs-translation">
 					<x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
-					您与他人共用一个帐户；
+					Someone could share one with you
 					<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
 					<x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
-					您在 iOS 上购买一个帐户；
+					You can buy an account on iOS
 					<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
 					<x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;"/>
-					您使用 OXT 币创建一个帐户。
+					You can create an account with OXT
 					<x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;"/>
 				</target>
         <context-group purpose="location">
@@ -4639,8 +4684,8 @@
         <source>
 					This set-up guide will cover the process to create an account using our web3-based dapp and your own OXT. If you already have a QR code for an existing Orchid account, you can skip to step 4 of this guide.
 				</source>
-        <target state="translated">
-					本份设置指南将介绍如何使用基于 Web3 的 Dapp 以及您自己的 OXT 币创建一个帐户。 若您已拥有现有 Orchid 帐户的二维码，则可直接跳至本指南的第 4 步。
+        <target state="needs-translation">
+					This set-up guide will cover the process to create an account using our web3-based dapp and your own OXT. If you already have a QR code for an existing Orchid account, you can skip to step 4 of this guide.
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/join/join.component.html</context>
@@ -4655,12 +4700,12 @@
 					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
 					for an opportunity to earn OXT while learning about Orchid!
 				</source>
-        <target state="translated">
-					了解 Coinbase 的
+        <target state="needs-translation">
+					Check out Coinbase’s
 					<x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
 					Earn Campaign
 					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
-					，即有望在了解 Orchid 的同时赚取 OXT 币！
+					for an opportunity to earn OXT while learning about Orchid!
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/join/join.component.html</context>
@@ -4671,8 +4716,8 @@
         <source>
 					Step
 				</source>
-        <target state="translated">
-					步骤
+        <target state="needs-translation">
+					Step
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/join/join.component.html</context>
@@ -4699,8 +4744,8 @@
         <source>
 					Create a new Ethereum wallet
 				</source>
-        <target state="translated">
-					创建新的以太坊钱包
+        <target state="needs-translation">
+					Create a new Ethereum wallet
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/join/join.component.html</context>
@@ -4711,10 +4756,8 @@
         <source>
 					We recommend using a new Ethereum wallet address for Orchid that is not linked to other Ethereum products or services you use.
 				</source>
-        <target state="translated">
-					我们建议您为 Orchid 创建一个新的以太坊钱包地址，即该地址应当未与您所使用的其它以太坊产品或服务绑定。 同时，建议您使用
-					Metamask
-					。
+        <target state="needs-translation">
+					We recommend using a new Ethereum wallet address for Orchid that is not linked to other Ethereum products or services you use.
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/join/join.component.html</context>
@@ -4729,12 +4772,12 @@
 					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
 					, which is a great choice for an Ethereum wallet.
 				</source>
-        <target state="translated">
-					此外，
+        <target state="needs-translation">
+					We test with
 					<x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
-					Coinbase Wallet
+					Metamask
 					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
-					亦与 Orchid 兼容。
+					, which is a great choice for an Ethereum wallet.
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/join/join.component.html</context>
@@ -4745,8 +4788,8 @@
         <source>
 					Load the Orchid DApp
 				</source>
-        <target state="translated">
-					加载 Orchid DApp
+        <target state="needs-translation">
+					Load the Orchid DApp
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/join/join.component.html</context>
@@ -4761,12 +4804,12 @@
 					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
 					in your wallet’s browser or your preferred browser with a wallet plugin enabled. It’s a good idea to bookmark this page for the future.
 				</source>
-        <target state="translated">
-					在您钱包的浏览器（或者启用了钱包插件的其他首选浏览器）中加载
+        <target state="needs-translation">
+					Load
 					<x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
-					account.orchid.com。
+					account.orchid.com
 					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
-					建议您将该网页加入书签，以便日后使用。
+					in your wallet’s browser or your preferred browser with a wallet plugin enabled. It’s a good idea to bookmark this page for the future.
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/join/join.component.html</context>
@@ -4777,8 +4820,8 @@
         <source>
 					You might be prompted to “connect” your wallet to the Orchid DApp so it can read the wallet account balances.
 				</source>
-        <target state="translated">
-					程序可能会提示您将钱包“连接”至 Orchid DApp ，以便后者读取钱包帐户的余额。
+        <target state="needs-translation">
+					You might be prompted to “connect” your wallet to the Orchid DApp so it can read the wallet account balances.
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/join/join.component.html</context>
@@ -4789,8 +4832,8 @@
         <source>
 					Add funds to your wallet
 				</source>
-        <target state="translated">
-					为您的钱包充值
+        <target state="needs-translation">
+					Add funds to your wallet
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/join/join.component.html</context>
@@ -4801,8 +4844,8 @@
         <source>
 					Adjust your account to see how much OXT you need for the efficiency you want. Also note the amount of ETH needed for network fees.
 				</source>
-        <target state="translated">
-					要为 Orchid 帐户充值，您需要持有待转入至帐户的 OXT 币以及用于支付交易费用的以太币。
+        <target state="needs-translation">
+					Adjust your account to see how much OXT you need for the efficiency you want. Also note the amount of ETH needed for network fees.
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/join/join.component.html</context>
@@ -4817,8 +4860,12 @@
 					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
 					for acquiring OXT.
 				</source>
-        <target state="translated">
-					DApp 将显示所需 OXT 币和以太币的金额。 将 OXT 币和以太币转入至钱包，然后点击“创建帐户”按钮。 然后，您需要批准两笔以太坊交易。 完成这些操作后，复制您的 Orchid 帐户代码或者保存二维码以备扫描。
+        <target state="needs-translation">
+					You will need both of those amounts in your attached wallet in order to create and fund the account. See our
+					<x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
+					participating exchanges
+					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+					for acquiring OXT.
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/join/join.component.html</context>
@@ -4829,8 +4876,8 @@
         <source>
 					Create your account
 				</source>
-        <target state="translated">
-					将您的帐户和应用绑定起来
+        <target state="needs-translation">
+					Create your account
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/join/join.component.html</context>
@@ -4841,12 +4888,8 @@
         <source>
 					A Signer address is needed to create the account. Generate a Signer in the DApp, or generate one in the app (Android only) and paste it in.
 				</source>
-        <target state="translated">
-					下载适用于
-					Android
-					或
-					iOS
-					的 Orchid 应用。
+        <target state="needs-translation">
+					A Signer address is needed to create the account. Generate a Signer in the DApp, or generate one in the app (Android only) and paste it in.
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/join/join.component.html</context>
@@ -4877,8 +4920,8 @@
         <source>
 					Connect your account and app
 				</source>
-        <target state="translated">
-					开始自由探索之旅！
+        <target state="needs-translation">
+					Connect your account and app
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/join/join.component.html</context>
@@ -4897,8 +4940,16 @@
 					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
 					.
 				</source>
-        <target state="translated">
-					在 Orchid 应用的连接界面中点击“连接”。 此操作将在设备上启用 Orchid ，激活您配置的跃点，并通过 Orchid 发送网络数据。
+        <target state="needs-translation">
+					Download the Orchid app for
+					<x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>
+					Android
+					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+					or
+					<x id="START_LINK_1" ctype="x-a" equiv-text="&lt;a&gt;"/>
+					iOS
+					<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>
+					.
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/join/join.component.html</context>
@@ -4933,8 +4984,8 @@
         <source>
 					Where to get OXT?
 				</source>
-        <target state="translated">
-					从哪里获取 OXT 币呢？
+        <target state="needs-translation">
+					Where to get OXT?
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/join/join.component.html</context>
@@ -4945,8 +4996,8 @@
         <source>
 					More questions?
 				</source>
-        <target state="translated">
-					还有更多问题？
+        <target state="needs-translation">
+					More questions?
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/join/join.component.html</context>
@@ -4957,8 +5008,8 @@
         <source>
 					Check out the FAQ
 				</source>
-        <target state="translated">
-					请查阅 FAQ（常见问题）
+        <target state="needs-translation">
+					Check out the FAQ
 				</target>
         <context-group purpose="location">
           <context context-type="sourcefile">app/join/join.component.html</context>
